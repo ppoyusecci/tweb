@@ -1,0 +1,48 @@
+
+.info-sec {
+    height: 150vh;
+    width: 100vw;
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    color: rgb(8, 102, 102);
+    font-size: 30px;
+  
+    background-color: rgba(255, 255, 255, 0.99);
+  }
+  
+  .infoText {
+    font-family: 'proxima-nova';
+    font-weight: 300;
+    font-size: 23px;
+    letter-spacing: .02em;
+    line-height: 1.7em;
+    color: black;
+  }
+  
+  .image-cropper {
+    height: auto;
+    position: relative;
+  
+    max-width: 200px;
+    
+  }
+  
+  .image-cropper img{
+    display: block;
+    height: auto;
+    width: 100%; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+    
+    border: 7px solid black;
+  }
+  
+  

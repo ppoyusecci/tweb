@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css"
+import "./contactSec.css"
 
 export default class ContactSec extends React.PureComponent {
 

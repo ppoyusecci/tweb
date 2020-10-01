@@ -1,0 +1,18 @@
+
+.name-sec {
+    height: 95vh;
+    width: 100vw;
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: rgba(148, 134, 134, 0.5);
+  
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold;
+  }

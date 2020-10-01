@@ -1,0 +1,21 @@
+
+.exp-sec {
+    background-color: rgba(233, 233, 233, 1);
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .exp-date {
+    color: rgb(120, 20, 20);
+    font-size: x-large;
+    line-height: 1em;
+  }
+  
+  .exp-title {
+    font-size: xx-large;
+    line-height: 1em;
+  }

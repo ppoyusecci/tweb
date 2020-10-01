@@ -6,6 +6,37 @@
     position: fixed;
     z-index: -1;
   }
+
+.text {
+  font-family: 'proxima-nova';
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: .05em;
+  line-height: 1.5em;
+  color: #0c8488;
+
+    
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.small-headline{
+  color: rgb(8, 82, 82);
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.headline {
+  color: rgb(8, 102, 102);
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 200;
+}
+
+.find-color {
+  color: rgb(13, 182, 204)
+}
   
 .row-container {
   display: flex;
@@ -22,3 +53,4 @@
   justify-content: center;
 
 }
+

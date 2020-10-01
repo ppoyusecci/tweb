@@ -1,0 +1,19 @@
+.contact-link {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .contact-sec {
+    display: flex;
+    flex-direction: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(83, 81, 81);
+    color: white;
+  
+    height: 15h;
+  
+    padding: 10px;
+  
+  }

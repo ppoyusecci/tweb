@@ -1,6 +1,6 @@
 import React from 'react';
-import "./style.css"
-import { Loading } from '../components/loading/loading.main';
+import "./nameSec.css"
+import { Loading } from '../../components/loading/loading.main';
 
 export default class NameSec extends React.PureComponent {
 

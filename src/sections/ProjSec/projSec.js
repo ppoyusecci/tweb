@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css"
+import "./projSec.css"
 
 export default class ProjSec extends React.PureComponent {
 

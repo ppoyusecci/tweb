@@ -15,9 +15,9 @@ function App() {
 
         <InfoSec />
 
-        <EduSec />
-
         <ExpSec />
+
+        <EduSec />
 
         <ProjSec />
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css"
+import "./navbar.css"
 import { Button } from 'semantic-ui-react';
 
 export default class Navbar extends React.PureComponent {

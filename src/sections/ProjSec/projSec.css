@@ -1,0 +1,25 @@
+.project-sec {
+  
+    background-color: rgba(211, 211, 211, 1);
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .proj-title {
+    color: rgb(8, 102, 102);
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+  }
+  
+  .proj-link {
+    
+    color: rgb(8, 102, 102);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 200;
+  }
