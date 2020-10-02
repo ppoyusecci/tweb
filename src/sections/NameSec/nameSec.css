@@ -1,18 +1,51 @@
 
 .name-sec {
-    height: 95vh;
-    width: 100vw;
+  height: 95vh;
+  width: 100vw;
+
   
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0);
+
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
+}
+
+.t {
+  color: rgb(39, 92, 136)
+}
+
+.o {
+  color: rgb(39, 92, 136)
+}
+
+.m{
+  color: rgb(165, 126, 126)
   
-    background-color: rgba(148, 134, 134, 0.5);
-  
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: bold;
-  }
+}
+
+.c {
+  color: rgb(39, 92, 136)
+}
+
+.h {
+  color:rgb(39, 92, 136)
+}
+
+.e {
+  color: rgb(149, 161, 113)
+}
+
+.n {
+  color: rgb(39, 92, 136)
+}
+
+.g {
+  color: rgb(82, 255, 255)
+}

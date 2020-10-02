@@ -15,7 +15,7 @@ export default class EduSec extends React.PureComponent {
             <div className="col-container" style={{alignItems: 'flex-start', fontFamily: 'sans-serif'}}>
               <div className='small-headline' style={{paddingBottom: '30px'}}>The Hong Kong University of Science and Technology</div>
 
-              <div className='small-headline' style={{color: 'rgba(60, 60, 60, 1)'}}>Beng in Computer Science</div>
+              <div className='small-headline' style={{color: 'rgba(60, 60, 60, 1)'}}>BEng in Computer Science</div>
             </div>
 
           </div>

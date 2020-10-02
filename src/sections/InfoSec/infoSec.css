@@ -9,16 +9,20 @@
     align-items: center;
     justify-content: space-evenly;
   
-    color: rgb(8, 102, 102);
+    color: rgb(37, 255, 255);
     font-size: 30px;
   
-    background-color: rgba(255, 255, 255, 0.99);
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .title {
+    color: rgb(68, 78, 88);
   }
   
   .infoText {
-    font-family: 'proxima-nova';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 15px;
     letter-spacing: .02em;
     line-height: 1.7em;
     color: black;

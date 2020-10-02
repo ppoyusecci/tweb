@@ -1,9 +1,7 @@
-.bg-sec{
-    background-image: url(./images/name-sec-bg.jpg);
+.Largest-Container{
+    background-image: url(./images/bg-01.jpg);
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
+    height: 250vh;
     z-index: -1;
   }
 
@@ -31,7 +29,7 @@
   color: rgb(8, 102, 102);
   font-size: 80px;
   font-family: 'Open Sans', sans-serif !important;
-  font-weight: 200;
+  font-weight: 880;
 }
 
 .find-color {

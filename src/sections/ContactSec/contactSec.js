@@ -34,7 +34,7 @@ export default class ContactSec extends React.PureComponent {
             rel="noopener noreferrer"
             style={{padding: '50px'}}
           >
-            Send Email to me at tomatwf@gmail.com
+            tomatwf@gmail.com
           </a>
 
       </div>
