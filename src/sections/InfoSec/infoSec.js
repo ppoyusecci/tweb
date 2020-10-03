@@ -23,7 +23,8 @@ export default class InfoSec extends React.PureComponent {
                 a 2D chair image.</div>
 
               <div className="infoText">Currently, Tom moved away from image analysis to time series data analysis. He is now working as a data scientist at Forex Forest, an education 
-              company which aims to teach people about algorithmic trading. His responsibility is about performing data mining technique on stock and foreign exchange market data.</div>
+              company which aims to teach people about algorithmic trading. His major responsibility is about performing data mining techniques on stock and foreign exchange market 
+              data.</div>
 
             </div>
 
