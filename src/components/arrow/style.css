@@ -1,0 +1,40 @@
+
+.nav span{
+    background-color: rgb(255, 255, 255);
+    display: block;
+
+    position: absolute;
+
+    border-radius: 2px;
+}
+
+.nav span:nth-child(1){
+    width: 55%;
+    height: 10%;
+    
+    transform: rotate(-45deg); 
+
+    top: 20%;
+}
+
+.nav span:nth-child(2){
+    width: 75%;
+    height: 10%;
+    
+    left: 15%;
+    top: 40%;
+}
+
+.nav span:nth-child(3){
+    width: 55%;
+    height: 10%;
+
+    transform: rotate(45deg);
+    
+    top: 60%;
+
+}
+
+.nav:hover {
+    transform: scale(1.3);
+}

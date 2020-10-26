@@ -1,0 +1,57 @@
+
+.edu-sec {
+  background-image: url(../../images/hkust.jpg);
+
+  background-position: center;
+  background-size: 120vw 180vh;
+  background-repeat: no-repeat;
+
+  background-color: rgba(255, 255, 255, 1);
+  height: 100vh;
+
+  overflow: hidden;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+.edu-date {
+  font-size: x-large;
+}
+
+.edu-degree-info {
+  border: 1px solid black;
+
+  line-height: 60px;
+
+  position: absolute;
+  top: 10%;
+  right: 0px;
+
+  height: 280px;
+  max-width: 900px; 
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background-color: rgba(88, 4, 4, 0.9);
+  color: white;
+  
+  transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .edu-degree-info{
+    width: 300px;
+  }
+  }
+
+.edu-sec a{
+  color: white;
+}
+
+.edu-sec a:hover{
+  color: rgba(33, 122, 224, 0.9);
+}

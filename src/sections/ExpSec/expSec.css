@@ -1,0 +1,69 @@
+.exp-sec {
+  --margin: 50px;
+  --text-color: white;
+
+  background-color: rgb(250, 250, 250);
+}
+
+.exp-sec .timeline {
+  width: 1vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: var(--main-color);
+}
+
+.exp-sec .wrapper::before{
+  width: 100px;
+  height: 100px;
+
+  background: turquoise;
+}
+
+.exp-sec .wrapper{
+  position: relative;
+  margin-top: var(--margin);
+  width: auto;
+  height: auto;
+  background: tomato;
+  color: var(--text-color);
+  
+  transition: 1s ease-in-out;
+
+  visibility: hidden;
+}
+.exp-sec .wrapper:nth-child(odd){
+  left: 120px;
+}
+.exp-sec .wrapper:nth-child(even){
+  left: -120px;
+} 
+
+.exp-sec .in-view {
+  visibility: visible;
+}
+.exp-sec .in-view:nth-child(odd) {
+  transform: translateX(-120px);
+}
+.exp-sec .in-view:nth-child(even) {
+  transform: translateX(120px);
+}
+
+.exp-sec .item {
+  padding: 50px;
+}
+
+.exp-sec .wrapper:last-child {
+  margin-bottom: var(--margin);
+}
+
+.exp-sec .tri {
+  width:0;
+  height: 0;
+
+  border: 20px solid;
+  border-top-width: 40px;
+  border-color: var(--third-color) transparent transparent transparent;
+}
