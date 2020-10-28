@@ -44,11 +44,26 @@ export default function ExpSec() {
         <div className="timeline">
 
           <div className="wrapper">
-            <div className="item">haha</div>
+            <div className="item">
+              <time>1998</time>
+              <span>Born</span>
+            </div>
           </div>
 
           <div className="wrapper">
-            <div className="item">hehe</div>
+            <div className="item">
+              <time>2016 - 2020 </time>
+              <span>HKUST</span>
+              <span>BEng in Computer Science</span>
+            </div>
+          </div>
+
+          <div className="wrapper">
+            <div className="item">
+              <time>2020 - present </time>
+              <span>Forex Forest</span>
+              <span>Data Scientist</span>
+            </div>
           </div>
 
         </div>
