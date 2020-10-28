@@ -48,29 +48,11 @@ export default class Navbar extends React.PureComponent {
 
                                       <a
                                       className="text navbar-text"
-                                      href="#eduSec"
-                                      rel="noopener noreferrer"
-                                      style={{padding: '1vw'}}
-                                      >
-                                      Education
-                                      </a>
-
-                                      <a
-                                      className="text navbar-text"
                                       href="#projSec"
                                       rel="noopener noreferrer"
                                       style={{padding: '1vw'}}
                                       >
                                       Projects
-                                      </a>
-                                      
-                                      <a
-                                      className="text navbar-text"
-                                      href="#contactSec"
-                                      rel="noopener noreferrer"
-                                      style={{padding: '1vw'}}
-                                      >
-                                      Contact
                                       </a>
 
 

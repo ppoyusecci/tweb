@@ -20,11 +20,9 @@ export default function ExpSec() {
         for (var i = 0; i < items.length; i++) {
           if (isElementInViewport(items[i])) {
             items[i].classList.add("in-view");
-            console.log(items[i])
           }
           else {
             items[i].classList.remove("in-view");
-            console.log("hehe")
           }
         }
       }

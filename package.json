@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode development --env development",
     "build": "webpack --mode production",
-    "publish": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "ppoy",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "style-loader": "^2.0.0",

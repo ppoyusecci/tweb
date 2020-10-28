@@ -7,8 +7,11 @@ const  app =
 <div className="largest-container">
         <Navbar />
         <NameSec />
+        <div id="infoSec"></div>
         <InfoSec />
+        <div id="expSec"></div>
         <ExpSec />
+        <div id="projSec"></div>
         <ProjSec />
         <ContectSec />
 </div>;
