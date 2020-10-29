@@ -14,16 +14,28 @@
 
   padding-left: 5vw;
   padding-right: 5vw;
+
+  min-width: 20vw;
 }
 
 .proj-sec ._content{
   padding-left: 5vw;
   padding-right: 5vw;
+
+  min-width: 40vw;
+}
+
+.proj-sec .card{
+
+  margin-bottom: 3vh;
 }
 
 .proj-sec .tags{
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+.proj-sec .tag{
+  margin-left: 1vw;
 }
 
 .proj-link {

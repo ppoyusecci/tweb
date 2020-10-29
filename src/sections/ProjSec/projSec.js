@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./projSec.css"
+import { makeStyles } from '@material-ui/core/styles';
 import Chip from '@material-ui/core/Chip';
 import Avatar from '@material-ui/core/Avatar';
 import Card from '@material-ui/core/Card';
@@ -10,10 +11,26 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-
 export default function ProjSec() {
 
     const [page, setPage] = useState(0);
+
+    useEffect( () => {
+
+      var max = 0;
+      var section = document.querySelector(".proj-sec .result");
+
+      for (var i = 0; i < 3; i++){
+        setPage(i);
+        max = document.querySelector(".proj-sec .result div").childElementCount > max? document.querySelector(".proj-sec .result div").childElementCount: max;
+      }
+
+      var height = max * 100 + "px";
+      section.style.height = height;
+
+      setPage(0);
+      
+    }, [])
 
     return (
       <div className="proj-sec section row-container">
@@ -26,9 +43,9 @@ export default function ProjSec() {
 
             <div className="tags">
 
-              <Chip avatar={<Avatar>G</Avatar>} label="Github" color="primary" onClick={()=>setPage(0)}/>
-              <Chip avatar={<Avatar>K</Avatar>} label="Kaggle" color="primary" onClick={()=>setPage(1)}/>
-              <Chip avatar={<Avatar>N</Avatar>} label="Other notebooks" color="primary" onClick={()=>setPage(2)}/>
+              <Chip className="tag" avatar={<Avatar>G</Avatar>} label="Github" color={page==0?"primary":"default"} onClick={()=>setPage(0)}/>
+              <Chip className="tag" avatar={<Avatar>K</Avatar>} label="Kaggle" color={page==1?"primary":"default"} onClick={()=>setPage(1)}/>
+              <Chip className="tag" avatar={<Avatar>N</Avatar>} label="Other notebooks" color={page==2?"primary":"default"} onClick={()=>setPage(2)}/>
 
             </div>
 
@@ -36,21 +53,37 @@ export default function ProjSec() {
               {
                   page==0? <div>
                             
-                              <Card>
+                              <Card className="card">
                                 <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
                                                 target="_blank"
                                 >
                                   <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                      Some cloud project
+                                      Sth
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                      Amazon AWS project
+                                      sth
+                                    </Typography>
+                                  </CardContent>
+                                </CardActionArea>
+                              </Card>
+
+                              <Card className="card">
+                                <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
+                                                target="_blank"
+                                >
+                                  <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                      sth
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="p">
+                                      React
                                     </Typography>
                                   </CardContent>
                                 </CardActionArea>
                               </Card>
                             </div>
+                            
 
                 : page==1? <div>
                               
@@ -60,10 +93,10 @@ export default function ProjSec() {
                                 >
                                   <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                      Auto driving image analysis
+                                      sth
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                      some competition
+                                      sth
                                     </Typography>
                                   </CardContent>
                                 </CardActionArea>

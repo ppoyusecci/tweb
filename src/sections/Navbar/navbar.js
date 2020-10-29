@@ -28,33 +28,7 @@ export default class Navbar extends React.PureComponent {
         {
           this.state.clicked? <div style={{width: '75%', display: 'flex', alignItems:'center', justifyContent: 'flex-end', paddingRight: '50px'}}>
 
-                                      <a
-                                      className="text navbar-text"
-                                      href="#infoSec"
-                                      rel="noopener noreferrer"
-                                      style={{padding: '1vw'}}
-                                      >
-                                      About me
-                                      </a>
-
-                                      <a
-                                      className="text navbar-text"
-                                      href="#expSec"
-                                      rel="noopener noreferrer"
-                                      style={{padding: '1vw'}}
-                                      >
-                                      Experience
-                                      </a>
-
-                                      <a
-                                      className="text navbar-text"
-                                      href="#projSec"
-                                      rel="noopener noreferrer"
-                                      style={{padding: '1vw'}}
-                                      >
-                                      Projects
-                                      </a>
-
+                                      
 
 
                               </div>
