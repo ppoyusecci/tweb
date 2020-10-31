@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./infoSec.css"
-import sp from '../../images/self-pic.jpg';
+import sp from '../../images/self-pic.svg';
 import { NameSec } from '../';
 
 export default function InfoSec() {

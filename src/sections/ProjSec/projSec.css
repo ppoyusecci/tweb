@@ -26,8 +26,11 @@
 }
 
 .proj-sec .card{
-
   margin-bottom: 3vh;
+}
+
+.proj-sec .card:hover{
+  background-color: var(--main-color);
 }
 
 .proj-sec .tags{

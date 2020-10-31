@@ -54,58 +54,45 @@ export default function ProjSec() {
                   page==0? <div>
                             
                               <Card className="card">
-                                <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
+                                <CardActionArea href="https://github.com/ppoyusecci/ppoyusecci.github.io"
                                                 target="_blank"
                                 >
                                   <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                      Sth
+                                    Website - React
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                      sth
+                                    The code of this website
                                     </Typography>
                                   </CardContent>
                                 </CardActionArea>
                               </Card>
-
-                              <Card className="card">
-                                <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
-                                                target="_blank"
-                                >
-                                  <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
-                                      sth
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                      React
-                                    </Typography>
-                                  </CardContent>
-                                </CardActionArea>
-                              </Card>
+                              
                             </div>
                             
 
                 : page==1? <div>
                               
-                            <Card>
-                                <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
+                              <Card className="card">
+                                <CardActionArea href=""
                                                 target="_blank"
                                 >
                                   <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                      sth
+                                    Lyft Motion Prediction for Autonomous Vehicles
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                      sth
+                                    Build motion prediction models for self-driving vehicles
                                     </Typography>
                                   </CardContent>
                                 </CardActionArea>
                               </Card>
+
                             </div>
 
                 : page==2? <div>
 
-                            <Card>
+                            <Card className="card">
                               <CardActionArea href="https://nbviewer.jupyter.org/github/ppoyusecci/2D-reflective-image-generation/blob/master/reflect_gan.ipynb"
                                               target="_blank"
                               >
@@ -114,7 +101,7 @@ export default function ProjSec() {
                                     FYP: 2D reflective image generation
                                   </Typography>
                                   <Typography variant="body2" color="textSecondary" component="p">
-                                    Final Year Project
+                                    My final Year Project
                                   </Typography>
                                 </CardContent>
                               </CardActionArea>

@@ -27,7 +27,7 @@
 
     text-align: center;
 
-    background-color: rgba(247, 243, 230, 0.9);
+    background-color: var(--main-color);
   }
 
   .info-sec .passage-break {

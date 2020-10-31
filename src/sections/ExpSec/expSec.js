@@ -4,6 +4,23 @@ import "./expSec.css"
 export default function ExpSec() {
 
   useEffect( () => {
+    var items = document.querySelectorAll(".wrapper");
+    var max_width = 0;
+
+
+    for (var i = 0; i < items.length; i++) {
+      var width = items[i].clientWidth;
+      max_width = width>max_width? width : max_width;
+    }
+
+    for (var i = 0; i < items.length; i++) {
+      items[i].style.width = max_width + 'px';
+    }
+
+  }, []
+)
+
+  useEffect( () => {
       var items = document.querySelectorAll(".wrapper");
       var bg = document.querySelector(".exp-sec");
 
@@ -50,7 +67,7 @@ export default function ExpSec() {
           <div className="wrapper">
             <div className="item">
               <time>2016 - 2020 </time>
-              <span>HKUST</span>
+              <span>Studied at HKUST</span>
               <span>BEng in Computer Science</span>
             </div>
           </div>

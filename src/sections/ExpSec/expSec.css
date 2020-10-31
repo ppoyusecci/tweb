@@ -15,7 +15,20 @@
   flex-direction: column;
   align-items: center;
 
-  background: var(--main-color);
+  background: var(--second-color);
+}
+
+.exp-sec .wrapper{
+  position: relative;
+  margin-top: var(--margin);
+  background: var(--third-color);
+  color: var(--text-color);
+  
+  transition: 1s ease-in-out;
+}
+
+.exp-sec .wrapper:last-child {
+  margin-bottom: var(--margin);
 }
 
 .exp-sec .wrapper::before{
@@ -34,23 +47,27 @@
   border-color: var(--third-color) transparent transparent transparent;
 }
 
-.exp-sec .wrapper{
-  position: relative;
-  margin-top: var(--margin);
-  width: auto;
-  height: auto;
-  background: tomato;
-  color: var(--text-color);
-  
-  transition: 1s ease-in-out;
-}
-
 .exp-sec .item {
-  padding: 50px;
+  padding: 2vh;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.exp-sec .wrapper:last-child {
-  margin-bottom: var(--margin);
+.exp-sec time{
+  display: inline-block;
+  white-space: nowrap;
+
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.exp-sec span {
+  display: inline-block;
+  white-space: nowrap;
+
+  text-align: center;
+  margin-bottom: 1vh;
 }
 
 .exp-sec .tri {
