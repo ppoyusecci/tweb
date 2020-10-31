@@ -1,0 +1,20 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#212323" id="canvas_background" height="1082" width="1922" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#5f605f" id="svg_28" d="m86.99301,999.60846c197.55862,17.93341 237.46945,33.14972 492.89883,-1.63031c255.42926,-34.78009 267.40259,-34.50836 447.00134,-2.17383c179.59875,32.33459 345.22864,36.4104 514.84973,2.98889c169.62097,-33.42139 265.4071,-27.98706 329.2644,7.0647" opacity="0.5" fill-opacity="0" stroke-opacity="null" stroke-width="5" fill="#e3e8e3"/>
+  <path stroke="#5f605f" id="svg_29" d="m72.99289,965.60815c145.55824,-42.0675 93.46817,-0.85077 348.89706,-35.6308c255.43103,-34.78009 285.40277,1.49213 465.0014,33.82672c179.59998,32.33453 145.2301,10.40997 314.85132,-23.01154c169.62097,-33.42145 597.40747,8.01355 661.26477,43.06537" opacity="0.5" fill-opacity="0" stroke-opacity="null" stroke-width="5" fill="#e3e8e3"/>
+  <path stroke="#5f605f" id="svg_30" d="m66.99284,925.60785c197.55861,17.93341 237.46947,33.14972 492.89882,-1.63031c255.42932,-34.78009 267.40265,-34.50842 447.00128,-2.17377c179.59888,32.33453 345.22876,36.41034 514.84985,2.98883c169.62097,-33.42145 265.4071,-27.98706 329.2644,7.0647" opacity="0.5" fill-opacity="0" stroke-opacity="null" stroke-width="5" fill="#e3e8e3"/>
+  <path stroke="#5f605f" id="svg_32" d="m86.993,999.60846c197.55863,17.93341 237.46946,33.14972 492.89884,-1.63031c255.42926,-34.78009 267.40259,-34.50836 447.00134,-2.17383c179.59875,32.33459 345.22864,36.4104 514.84973,2.98889c169.62097,-33.42139 265.4071,-27.98706 329.2644,7.0647" opacity="0.5" fill-opacity="0" stroke-opacity="null" stroke-width="5" fill="#e3e8e3"/>
+  <path stroke="#5f605f" id="svg_33" d="m86.993,999.60846c197.55863,17.93341 237.46946,33.14972 492.89884,-1.63031c255.42926,-34.78009 267.40259,-34.50836 447.00134,-2.17383c179.59875,32.33459 345.22864,36.4104 514.84973,2.98889c169.62097,-33.42139 265.4071,-27.98706 329.2644,7.0647" opacity="0.5" fill-opacity="0" stroke-opacity="null" stroke-width="5" fill="#e3e8e3"/>
+  <ellipse ry="500" rx="500" id="svg_34" cy="540" cx="960" fill-opacity="0" stroke-opacity="null" stroke-width="7" stroke="#5f605f" fill="#e3e8e3"/>
+  <ellipse id="svg_35" cy="150.9988" cx="1961.00806" fill-opacity="0" stroke-opacity="null" stroke-width="7" stroke="#5f605f" fill="#e3e8e3"/>
+ </g>
+</svg>
